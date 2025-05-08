@@ -1,58 +1,66 @@
 ---
-title: "Splash Page"
+title: "Welcome to My Portfolio"
 layout: splash
 permalink: /splash-page/
-date: 2016-03-23T11:48:41-04:00
+date: 2025-05-08T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/unsplash-image-1.jpg
   actions:
-    - label: "Download"
-      url: "https://github.com/mmistakes/minimal-mistakes/"
+    - label: "View My Projects"
+      url: "/portfolio/"
+    - label: "Download Resume"
+      url: "/resume/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+excerpt: "Welcome to my personal website. I'm Abdullah Badawod, a **Network Security Specialist**. Here you can explore my projects, certifications, and experience in cybersecurity."
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
+  - excerpt: 'Welcome to my cybersecurity portfolio! I specialize in **network security**, **penetration testing**, and **vulnerability analysis**. Browse through my projects and feel free to contact me for collaboration.'
 feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
+  - image_path: /assets/images/firewall-setup.jpg
+    alt: "Firewall Configuration"
+    title: "Firewall Configuration with pfSense"
+    excerpt: "A hands-on project demonstrating how to set up and secure a network using **pfSense**."
+    url: "/portfolio/firewall-setup/"
+    btn_label: "Learn More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - image_path: /assets/images/penetration-testing.jpg
+    alt: "Penetration Testing"
+    title: "Penetration Testing Simulation"
+    excerpt: "Using **Kali Linux** and **Metasploit** to test the security of a virtual machine and discover vulnerabilities."
+    url: "/portfolio/penetration-testing/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/vulnerability-analysis.jpg
+    alt: "Vulnerability Analysis"
+    title: "Vulnerability Analysis: Log4Shell"
+    excerpt: "A detailed analysis of **Log4Shell** vulnerability, its exploitation, and mitigation strategies."
+    url: "/portfolio/vulnerability-analysis/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
 feature_row2:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Left Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-    url: "#test-link"
-    btn_label: "Read More"
+  - image_path: /assets/images/snort-setup.jpg
+    alt: "Snort IDS"
+    title: "Intrusion Detection with Snort"
+    excerpt: 'Setting up **Snort** IDS/IPS on a Linux environment to detect and respond to network attacks.'
+    url: "/portfolio/snort-setup/"
+    btn_label: "Learn More"
     btn_class: "btn--primary"
 feature_row3:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Right Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-    url: "#test-link"
-    btn_label: "Read More"
+  - image_path: /assets/images/ms900.jpg
+    alt: "MS-900"
+    title: "Microsoft Certified: MS-900"
+    excerpt: 'Preparing for **Microsoft 365 Fundamentals** certification focusing on cloud services.'
+    url: "/certifications/#ms-900"
+    btn_label: "Learn More"
     btn_class: "btn--primary"
 feature_row4:
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder Image Center Aligned"
-    excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-    url: "#test-link"
-    btn_label: "Read More"
+  - image_path: /assets/images/ethical-hacking.jpg
+    alt: "Ethical Hacking"
+    title: "Ethical Hacking & Pen Testing"
+    excerpt: 'Hands-on experience in penetration testing, ethical hacking, and securing networks using the latest tools and techniques.'
+    url: "/portfolio/ethical-hacking/"
+    btn_label: "Learn More"
     btn_class: "btn--primary"
 ---
 
