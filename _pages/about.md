@@ -1,7 +1,7 @@
 ---
 permalink: /about/
 title: "About"
-excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
+excerpt: "Welcome to my personal site! I'm Abdullah Badawod, a Network Security Specialist."
 layouts_gallery:
   - url: /assets/images/mm-layout-splash.png
     image_path: /assets/images/mm-layout-splash.png
@@ -16,70 +16,54 @@ last_modified_at: 2022-05-27T11:59:26-04:00
 toc: true
 ---
 
-Minimal Mistakes is a flexible two-column Jekyll theme. Perfect for hosting your personal site, blog, or portfolio on GitHub or self-hosting on your own server. As the name implies --- styling is purposely minimalistic to be enhanced and customized by you :smile:.
+## About Abdullah Badawod
 
-{% include gallery id="layouts_gallery" caption="Examples of included layouts `splash`, `single`, and `archive`." %}
+I am a **Network Security Specialist** with a passion for safeguarding systems and networks. I graduated from the **Arab Open University** with a Bachelor's degree in **Network Security**. My interests lie in **penetration testing**, **vulnerability assessment**, and **firewall configuration**.
 
-[Install the Theme]({{ "/docs/quick-start-guide/" | relative_url }}){: .btn .btn--success .btn--large}
+### Education
 
-## Notable Features
+- **Bachelor's Degree in Network Security** - **Arab Open University** (Graduated in 2025)
 
-- Bundled as a "theme gem" for easier install/upgrading.
-- Compatible with GitHub Pages.
-- Support for Jekyll's built-in Sass/SCSS preprocessor.
-- Nine different skins (color variations).
-- Several responsive layout options (single, archive index, search, splash, and paginated home page).
-- Optimized for search engines with support for [Twitter Cards](https://dev.twitter.com/cards/overview) and [Open Graph](http://ogp.me/) data
-- Optional [header images](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#headers), [custom sidebars](https://mmistakes.github.io/minimal-mistakes/docs/layouts/#sidebars), [table of contents](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#table-of-contents), [galleries](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#gallery), related posts, [breadcrumb links](https://mmistakes.github.io/minimal-mistakes/docs/configuration/#breadcrumb-navigation-beta), [navigation lists](https://mmistakes.github.io/minimal-mistakes/docs/helpers/#navigation-list), and more.
-- Commenting support (powered by [Disqus](https://disqus.com/), [Facebook](https://developers.facebook.com/docs/plugins/comments), [Discourse](https://www.discourse.org/), [utterances](https://utteranc.es/), [giscus](https://giscus.app/), static-based via [Staticman v1 and v2](https://staticman.net/), and custom).
-- [Google Analytics](https://www.google.com/analytics/) support.
-- UI localized text in English (default), Arabic (عربي), Brazilian Portuguese (Português brasileiro), Bulgarian, Catalan, Chinese, Czech, Danish, Dutch, Finnish, French (Français), German (Deutsch), Greek, Hebrew, Hindi (हिंदी), Hungarian, Indonesian, Irish (Gaeilge), Italian (Italiano), Japanese, Kiswahili, Korean, Malayalam, Myanmar (Burmese), Nepali (Nepalese), Norwegian (Norsk), Persian (فارسی), Polish, Punjabi (ਪੰਜਾਬੀ), Romanian, Russian, Slovak, Spanish (Español), Swedish, Thai, Turkish (Türkçe), and Vietnamese.
+### Certifications
 
-## Demo Pages
+- **Certified Cisco Network Associate (CCNA)** - Cisco (Obtained on 17th July 2024)
+- **Microsoft Certified: MS-900** - Plan to obtain in the near future
 
-| Name                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------------- |
-| [Post with Header Image][header-image-post] | A post with a large header image. |
-| [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-| [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
-| [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
-| [Sample Collection Page][sample-collection] | Single page from a collection. |
-| [Categories Archive][categories-archive] | Posts grouped by category. |
-| [Tags Archive][tags-archive] | Posts grouped by tag. |
+### Skills
 
-For even more demo pages check the [posts archive][year-archive].
+- **Penetration Testing**: Expertise in using tools like **Metasploit**, **Burp Suite**, and **Wireshark**.
+- **Vulnerability Assessment**: Skilled in identifying and addressing security vulnerabilities in systems and applications.
+- **Firewall Configuration**: Experience in configuring firewalls such as **pfSense** for enhanced network security.
+- **Incident Response**: Knowledge of responding to and recovering from security breaches.
 
-[header-image-post]: {{ "" | relative_url }}{% post_url 2012-03-15-layout-header-image-text-readability %}
-[gallery-post]: {{ "" | relative_url }}{% post_url 2010-09-09-post-gallery %}
-[html-tags-post]: {{ "" | relative_url }}{% post_url 2013-01-11-markup-html-tags-and-formatting %}
-[syntax-post]: {{ "" | relative_url }}{% post_url 2013-08-16-markup-syntax-highlighting %}
-[sample-collection]: {{ "/recipes/chocolate-chip-cookies/" | relative_url }}
-[categories-archive]: {{ "/categories/" | relative_url }}
-[tags-archive]: {{ "/tags/" | relative_url }}
-[year-archive]: {{ "/year-archive/" | relative_url }}
+### Projects (Upcoming Virtual Projects)
 
----
+In addition to my certifications, I have worked on several **virtual cybersecurity projects** to enhance my practical skills. These include:
 
-## Credits
+1. **Vulnerability Analysis**: 
+   - **Description**: Analysis of famous vulnerabilities like **Log4Shell** and **Heartbleed**.
+   - **Tools Used**: **Wireshark** and documented in **PDF/Markdown**.
 
-### Icons + Demo Images:
+2. **Firewall Configuration with pfSense**:
+   - **Description**: Building a virtual network and applying security rules using **pfSense**.
+   - **Outputs**: Network topology diagram and firewall rules.
 
-- [The Noun Project](https://thenounproject.com) -- Garrett Knoll, Arthur Shlain, and [tracy tam](https://thenounproject.com/tracytam)
-- [Font Awesome](http://fontawesome.io/)
-- [Unsplash](https://unsplash.com/)
+3. **Intrusion Detection System (IDS) with Snort**:
+   - **Description**: Setting up an **IDS** on a Linux environment, using **Snort** to detect and analyze attacks.
+   - **Outputs**: Logs and samples of detected attacks such as **Port Scanning**.
 
-### Other:
+4. **Penetration Testing Simulation**:
+   - **Description**: Using tools like **Kali Linux**, **Nmap**, and **Metasploit** to test vulnerabilities in virtual machines.
+   - **Outputs**: Penetration testing report with discovered vulnerabilities.
 
-- [Jekyll](https://jekyllrb.com/)
-- [jQuery](https://jquery.com/)
-- [Susy](http://susy.oddbird.net/)
-- [Breakpoint](http://breakpoint-sass.com/)
-- [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/)
-- [FitVids.JS](http://fitvidsjs.com/)
-- Greedy Navigation - [lukejacksonn](https://codepen.io/lukejacksonn/pen/PwmwWV)
-- [jQuery Smooth Scroll](https://github.com/kswedberg/jquery-smooth-scroll)
-- [Lunr](http://lunrjs.com)
+5. **Operating System Hardening**:
+   - **Description**: Securing a **Linux (Ubuntu)** system by following a hardening guide.
+   - **Outputs**: Configuration files (ssh, ufw) and a report explaining each step taken.
 
----
+### Goals
 
-Minimal Mistakes is designed, developed, and maintained by Michael Rose. Just another boring, tattooed, designer from Buffalo New York.
+I aim to deepen my expertise in **ethical hacking** and **cybersecurity defense** while contributing to the ongoing development of secure systems.
+
+### Contact
+
+You can reach me via email at **abdullah@example.com**, or connect with me on [LinkedIn](https://www.linkedin.com/in/abdullah-badawod).
