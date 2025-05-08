@@ -1,7 +1,7 @@
 # Jekyll Config File
 
 theme                    : "minimal-mistakes-jekyll"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # يمكنك تغييره إلى "neon" أو "sunrise" حسب رغبتك
 
 # Site Settings
 locale                   : "en-US"
@@ -18,24 +18,13 @@ logo                     : "/assets/images/apple-touch-icon.png"
 masthead_title           : "Abdullah's Professional Website"
 words_per_minute         : 200
 
-# Comments Section Configuration (Optional)
+# Comments Section Configuration (Giscus)
 comments:
-  provider               : false
-  disqus:
-    shortname            : 
-  discourse:
-    server               : 
-  facebook:
-    appid                :
-    num_posts            : 5
-    colorscheme          : "light"
-  utterances:
-    theme                : "github-light"
-    issue_term           : "pathname"
+  provider               : "giscus"
   giscus:
-    repo_id              :
-    category_name        :
-    category_id          :
+    repo_id              : "YOUR_REPO_ID"
+    category_name        : "General"
+    category_id          : "YOUR_CATEGORY_ID"
     discussion_term      : "pathname"
     reactions_enabled    : 1
     theme                : "light"
