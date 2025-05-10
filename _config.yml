@@ -1,6 +1,6 @@
 # Jekyll Config File
 
-theme                    : "minimal-mistakes-jekyll"
+theme: minima
 minimal_mistakes_skin    : "mint" # يمكنك تغييره إلى "neon" أو "sunrise" حسب رغبتك
 
 # Site Settings
